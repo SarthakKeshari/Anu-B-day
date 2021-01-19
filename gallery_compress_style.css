@@ -1,0 +1,25 @@
+body
+{
+    display: flex;
+    background-image: url(back_pic1.jpg);
+    width: 120vw;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.collapse_{
+    border-radius: 50px;
+    width: 50px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.collapse_:hover{
+    border-radius: 0px;
+    width: 50%;
+}
+
+.v1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
